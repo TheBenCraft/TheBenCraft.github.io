@@ -41,10 +41,6 @@ button {
     <script>
         let alarm = new Audio('alarm.mp3');
         let timerStarted = false;
-        
-        function testTimer() {
-        alarm.play();
-        }
 
         function startTimer() {
             if(!timerStarted) {
@@ -87,8 +83,5 @@ button {
     <div class="center margin-top">
         <button onclick="startTimer()">Start</button>
     </div>
-    <div>
-      <button onclick="testTimer()">Test</button> 
-    
 </body>
 </html>
