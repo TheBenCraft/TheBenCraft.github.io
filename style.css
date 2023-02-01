@@ -89,6 +89,12 @@ h1 {
   text-decoration: underline;
 }
 
+h1 {
+  color: lightgray;
+  text-align: center;
+  font-size: 40px;
+}
+
 img {
   width: 30%;
 }
